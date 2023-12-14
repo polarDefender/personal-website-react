@@ -107,4 +107,37 @@ a {
     background-color: rgb(255, 255, 255, 0.5);
     border-radius: 10px;
     font-family: 'VT323', monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    width: 100%;
+}
+
+.contact label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+}
+
+.contact input[type="text"], .contact input[type="email"], .contact textarea {
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding doesn't affect overall width */
+}
+
+.contact textarea {
+    resize: vertical; /* Allows vertical resizing, you can change to 'none' to disable resizing */
 }
