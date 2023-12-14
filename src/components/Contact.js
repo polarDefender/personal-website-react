@@ -31,13 +31,14 @@ function Contact() {
             <h1>Let's start a project together!</h1>
             <p>For all inquiries, or to schedule an interview, please fill out the form below:</p>
             <br/>
-            <form>
+            <form onSubmit={handleSubmit}>
                 <label>*Full Name:</label>
                 <input 
                     required 
                     name="name" 
                     type="text" 
                     placeholder="Name"
+                    value={formState.name}
                 >
                 </input>
                 <br/>
@@ -46,6 +47,7 @@ function Contact() {
                     name="company"
                     type="text"
                     placeholder="Company"
+                    value={formState.company}
                 >                
                 </input>
                 <br/>
@@ -55,6 +57,7 @@ function Contact() {
                     name="email"
                     type="text"
                     placeholder="Email"
+                    value={formState.email}
                 >
                 </input>
                 <br/>
@@ -64,6 +67,7 @@ function Contact() {
                     name="phone"
                     type="text"
                     placeholder="Phone"
+                    value={formState.phone}
                 >
                 </input>
                 <br/>
@@ -73,6 +77,7 @@ function Contact() {
                     name="subject"
                     type="text"
                     placeholder="Subject"
+                    value={formState.subject}
                 >
                 </input>
                 <br/>
@@ -82,6 +87,7 @@ function Contact() {
                     name="message"
                     type="text"
                     placeholder="Message..."
+                    value={formState.message}
                 >
                 </textarea>
                 <button 
