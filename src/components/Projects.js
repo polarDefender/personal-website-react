@@ -15,6 +15,7 @@ function Projects() {
 
             <ul className="repos">
                 <a href={"https://github.com/charliechase96"} target="blank">My GitHub Profile</a>
+                <br/>
                 {repos.map(repo => (
                     <li key={repo.name}>
                         <a href={repo.url} target="blank">{repo.description}</a>
