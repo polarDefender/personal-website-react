@@ -20,6 +20,15 @@ function Contact() {
             },
             body: JSON.stringify(formState),
         });
+
+        setFormState({
+            name: '',
+            company: '',
+            email: '',
+            phone: '',
+            subject: '',
+            message: ''
+        })
     };
 
     function handleChange(event) {
@@ -39,6 +48,7 @@ function Contact() {
                     type="text" 
                     placeholder="Name"
                     value={formState.name}
+                    onChange={handleChange}
                 >
                 </input>
                 <br/>
@@ -48,6 +58,7 @@ function Contact() {
                     type="text"
                     placeholder="Company"
                     value={formState.company}
+                    onChange={handleChange}
                 >                
                 </input>
                 <br/>
@@ -58,6 +69,7 @@ function Contact() {
                     type="text"
                     placeholder="Email"
                     value={formState.email}
+                    onChange={handleChange}
                 >
                 </input>
                 <br/>
@@ -68,6 +80,7 @@ function Contact() {
                     type="text"
                     placeholder="Phone"
                     value={formState.phone}
+                    onChange={handleChange}
                 >
                 </input>
                 <br/>
@@ -78,6 +91,7 @@ function Contact() {
                     type="text"
                     placeholder="Subject"
                     value={formState.subject}
+                    onChange={handleChange}
                 >
                 </input>
                 <br/>
@@ -88,6 +102,7 @@ function Contact() {
                     type="text"
                     placeholder="Message..."
                     value={formState.message}
+                    onChange={handleChange}
                 >
                 </textarea>
                 <button 
