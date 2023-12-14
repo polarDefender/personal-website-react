@@ -94,6 +94,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .repos {
     list-style-type: none;
     text-align: center;
