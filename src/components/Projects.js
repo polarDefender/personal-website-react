@@ -10,7 +10,7 @@ function Projects() {
     return (
         <div className="portfolio">
             <h1>Portfolio Projects</h1>
-            <p className="portfolio-p">Below is a list of significant portfolio projects I have completed, along with links to their repositories.</p>
+            <p className="portfolio-p">Below are my GitHub profile and LinkedIn profile, as well as a list of links to repositories of significant projects I have completed!</p>
             <br/>
 
             <ul className="repos">
@@ -20,6 +20,15 @@ function Projects() {
                         href={"https://github.com/charliechase96"} target="blank"
                     >
                         My GitHub Profile
+                    </a>
+                </li>
+                <li>
+                    <a
+                        className="linkedin"
+                        href={"https://www.linkedin.com/in/charliechasegray/"}
+                        target="blank"
+                    >
+                        My LinkedIn Profile
                     </a>
                 </li>
                 {repos.map(repo => (
