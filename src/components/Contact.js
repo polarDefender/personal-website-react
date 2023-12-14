@@ -1,6 +1,31 @@
-import React from "react";
+import React, {useState} from "react";
 
 function Contact() {
+    const [formState, setFormState] = useState({
+        name: '',
+        company: '',
+        email: '',
+        phone: '',
+        subject: '',
+        message: '',
+    });
+
+    function handleSubmit(event) {
+        event.preventDefault();
+
+        fetch("https://formspree.io/f/mbjnrdvo", {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formState),
+        });
+    };
+
+    function handleChange(event) {
+        setFormState({...formState, [event.target.name]: event.target.value});
+    }
+
     return (
         <div className="contact">
             <h1>Let's start a project together!</h1>
