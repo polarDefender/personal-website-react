@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+    background: url("https://t4.ftcdn.net/jpg/06/05/09/13/360_F_605091366_qVNTuax79o943n9jwgcF2NLfl43qneIJ.jpg") no-repeat center center fixed;
+    background-size: 100% 100%;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 10px;
+    font-family: 'VT323', monospace;
+}
+
+h1 {
+    font-family: 'VT323', monospace;
+    line-height: 1.5;
+    margin-bottom: 0.5em;
+    text-align: center;
+    
+}
+
+p {
+    font-family: 'VT323', monospace;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255, 0.5); 
+    overflow: hidden;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+
+.nav-item a {
+    color: rgb(137, 110, 255);
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s;
+    transition: on hover;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'VT323', monospace;
+}
+
+.nav-item a:hover {
+    background-color: rgb(137, 110, 255, 0.3);
+    color: black;
+}

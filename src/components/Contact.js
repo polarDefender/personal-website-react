@@ -1,9 +1,9 @@
 import React from "react";
 
-function More() {
+function Contact() {
     return (
         <p></p>
     )
 }
 
-export default More;
+export default Contact;

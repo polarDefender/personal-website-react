@@ -4,6 +4,8 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Projects from './components/Projects';
 import More from './components/More';
+import Contact from './components/Contact';
+import "./App.css"
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/more" element={<More />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   );
