@@ -68,6 +68,7 @@ p {
     font-size: 16px;
     font-weight: bold;
     font-family: 'VT323', monospace;
+    font-size: 1.5em;
 }
 
 .nav-item a:hover {
@@ -113,7 +114,8 @@ li:first-of-type {
 
 .contact {
     max-width: 800px;
-    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
     padding: 20px;
     background-color: rgb(255, 255, 255, 0.5);
     border-radius: 10px;

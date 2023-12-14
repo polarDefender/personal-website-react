@@ -46,7 +46,7 @@ function Contact() {
                     required 
                     name="name" 
                     type="text" 
-                    placeholder="Name"
+                    placeholder="Name..."
                     value={formState.name}
                     onChange={handleChange}
                 >
@@ -56,7 +56,7 @@ function Contact() {
                 <input
                     name="company"
                     type="text"
-                    placeholder="Company"
+                    placeholder="Company..."
                     value={formState.company}
                     onChange={handleChange}
                 >                
@@ -67,7 +67,7 @@ function Contact() {
                     required
                     name="email"
                     type="text"
-                    placeholder="Email"
+                    placeholder="Email..."
                     value={formState.email}
                     onChange={handleChange}
                 >
@@ -78,7 +78,7 @@ function Contact() {
                     required
                     name="phone"
                     type="text"
-                    placeholder="Phone"
+                    placeholder="Phone..."
                     value={formState.phone}
                     onChange={handleChange}
                 >
@@ -89,7 +89,7 @@ function Contact() {
                     required
                     name="subject"
                     type="text"
-                    placeholder="Subject"
+                    placeholder="Subject..."
                     value={formState.subject}
                     onChange={handleChange}
                 >
