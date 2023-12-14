@@ -98,6 +98,10 @@ a:hover {
     text-decoration: underline;
 }
 
+.profile {
+    margin-bottom: 20px;
+}
+
 .repos {
     list-style-type: none;
     text-align: center;
