@@ -22,9 +22,8 @@ function Projects() {
                         My GitHub Profile
                     </a>
                 </li>
-                <li>
+                <li className="linkedin">
                     <a
-                        className="linkedin"
                         href={"https://www.linkedin.com/in/charliechasegray/"}
                         target="blank"
                     >
