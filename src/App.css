@@ -71,7 +71,7 @@ p {
 }
 
 .nav-item a:hover {
-    background-color: rgb(137, 110, 255, 0.3);
+    background-color: rgba(137, 110, 255, 0.3);
     color: black;
 }
 
@@ -135,9 +135,33 @@ a {
 
 .contact input[type="text"], .contact input[type="email"], .contact textarea {
     width: 100%;
-    box-sizing: border-box; /* Ensures padding doesn't affect overall width */
+    box-sizing: border-box;
 }
 
 .contact textarea {
-    resize: vertical; /* Allows vertical resizing, you can change to 'none' to disable resizing */
+    resize: vertical;
+    margin-bottom: 40px;
+}
+
+.contact button.submit-button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(137, 110, 255, 0.7); /* Soft violet color */
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.contact button.submit-button:hover {
+    background-color: rgba(137, 110, 255, 1.0);
+}
+
+.contact button.submit-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(137, 110, 255, 1.0);
 }

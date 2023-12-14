@@ -7,7 +7,7 @@ function Contact() {
             <p>For all inquiries, or to schedule an interview, please fill out the form below:</p>
             <br/>
             <form>
-                <label>Full Name:</label>
+                <label>*Full Name:</label>
                 <input 
                     required 
                     name="name" 
@@ -24,7 +24,7 @@ function Contact() {
                 >                
                 </input>
                 <br/>
-                <label>Email:</label>
+                <label>*Email:</label>
                 <input
                     required
                     name="email"
@@ -33,7 +33,7 @@ function Contact() {
                 >
                 </input>
                 <br/>
-                <label>Phone:</label>
+                <label>*Phone:</label>
                 <input 
                     required
                     name="phone"
@@ -42,7 +42,7 @@ function Contact() {
                 >
                 </input>
                 <br/>
-                <label>Subject:</label>
+                <label>*Subject:</label>
                 <input
                     required
                     name="subject"
@@ -51,7 +51,7 @@ function Contact() {
                 >
                 </input>
                 <br/>
-                <label>Message:</label>
+                <label>*Message:</label>
                 <textarea
                     required
                     name="message"
@@ -59,6 +59,12 @@ function Contact() {
                     placeholder="Message..."
                 >
                 </textarea>
+                <button 
+                    type="submit" 
+                    className="submit-button"
+                >
+                    Submit
+                </button>
             </form>
         </div>
     )
