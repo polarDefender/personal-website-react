@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
-@media screen and (max-width: 600px) {
-    .navbar.responsive {position: relative}
-}
-
 body {
     background: url("https://t4.ftcdn.net/jpg/06/05/09/13/360_F_605091366_qVNTuax79o943n9jwgcF2NLfl43qneIJ.jpg") no-repeat center center fixed;
     background-size: 100% 100%;
@@ -43,14 +39,14 @@ p {
 
 .navbar {
     background-color: rgb(255, 255, 255, 0.5); 
-    overflow-x: auto;
+    overflow-x: hidden;
     padding: 10px 0;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
-    max-width: 100vw;
+    width: 100%;
 }
 
 .nav-menu {
