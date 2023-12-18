@@ -9,6 +9,7 @@ function Contact() {
         subject: '',
         message: '',
     });
+    const [isSubmitted, setIsSubmitted] = useState(false);
 
     function handleSubmit(event) {
         event.preventDefault();
@@ -29,6 +30,7 @@ function Contact() {
             subject: '',
             message: ''
         })
+        setIsSubmitted(true);
     };
 
     function handleChange(event) {
@@ -112,6 +114,7 @@ function Contact() {
                     Submit
                 </button>
             </form>
+            {isSubmitted ? <p>Thank you for your submission! I will be in touch shortly!</p> : null}
         </div>
     )
 }
