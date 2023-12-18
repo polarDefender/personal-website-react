@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
+@media screen and (max-width: 600px) {
+    .navbar.responsive {position: relative}
+}
+
 body {
     background: url("https://t4.ftcdn.net/jpg/06/05/09/13/360_F_605091366_qVNTuax79o943n9jwgcF2NLfl43qneIJ.jpg") no-repeat center center fixed;
     background-size:cover;
