@@ -39,7 +39,7 @@ p {
 
 .navbar {
     background-color: rgb(255, 255, 255, 0.5); 
-    overflow-x: hidden;
+    overflow-x: auto;
     padding: 10px 0;
     position: fixed;
     top: 0;
