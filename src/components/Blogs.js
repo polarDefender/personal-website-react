@@ -13,7 +13,7 @@ function Blogs() {
     return (
         <div className="bloglist">
             <h1>My Blogs</h1>
-            <p className="blogs-p">Below is a list of my development blogs and their descriptions:</p>
+            <p className="blogs-p">Below is a list of my blogs I have written on various software development topics!</p>
             <br/>
             <ul className="blogs">
                 {blogs.map(blog => (
