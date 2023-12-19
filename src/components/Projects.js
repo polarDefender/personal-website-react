@@ -3,7 +3,7 @@ import React from "react";
 function Projects() {
 
     const repos = [
-        {name: "repo1", url: "https://weather-app-eight-azure-11.vercel.app/", description: "Weather Forecast By Zip Code"},
+        {name: "repo1", url: "https://weather-app-eight-azure-11.vercel.app/", description: "Weather Forecast By Zip Code (React"},
         {name: "repo2", url: "https://github.com/charliechase96/Phase-2-Project", description: "Kitten image collection sorter (React)"}
     ];
 
