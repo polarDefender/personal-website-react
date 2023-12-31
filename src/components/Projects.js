@@ -4,7 +4,7 @@ function Projects() {
 
     const repos = [
         {name: "repo1", url: "https://weather-app-eight-azure-11.vercel.app/", description: "Weather Forecast By Zip Code (React)"},
-        {name: "repo2", url: "https://recipe-app-three-tau.vercel.app/", description: "Recipe Logging App with User Authentication (React)"}
+        {name: "repo2", url: "https://rainbow-recipe-repository.vercel.app/", description: "Recipe Logging App with User Authentication (React)"}
     ];
 
     return (

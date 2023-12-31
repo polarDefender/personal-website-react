@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 
 body {
     background: url("https://images.pexels.com/photos/4175070/pexels-photo-4175070.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center center fixed;
@@ -19,11 +19,11 @@ body {
     padding: 20px;
     background-color: rgb(255, 255, 255, 0.5);
     border-radius: 10px;
-    font-family: 'VT323', monospace;
+    font-family: 'Zen Dots', sans-serif;
 }
 
 h1 {
-    font-family: 'VT323', monospace;
+    font-family: 'Zen Dots', sans-serif;
     line-height: 1.5;
     margin-bottom: 0.5em;
     text-align: center;
@@ -31,7 +31,7 @@ h1 {
 }
 
 p {
-    font-family: 'VT323', monospace;
+    font-family: 'Pixelify Sans', sans-serif;
     line-height: 1.5;
     text-align: justify;
     font-size: 1.5em;
@@ -72,7 +72,7 @@ p {
     transition: on hover;
     font-size: 16px;
     font-weight: bold;
-    font-family: 'VT323', monospace;
+    font-family: 'Pixelify Sans', sans-serif;
     font-size: 1.5em;
 }
 
@@ -90,7 +90,7 @@ p {
     padding: 20px;
     background-color: rgb(255, 255, 255, 0.5);
     border-radius: 10px;
-    font-family: 'VT323', monospace;
+    font-family: 'Pixelify Sans', sans-serif;
 }
 
 .portfolio-p {
@@ -140,7 +140,7 @@ a:hover {
     padding: 20px;
     background-color: rgb(255, 255, 255, 0.5);
     border-radius: 10px;
-    font-family: 'VT323', monospace;
+    font-family: 'Pixelify Sans', sans-serif;
     
 }
 
@@ -155,7 +155,7 @@ a:hover {
     padding: 20px;
     background-color: rgb(255, 255, 255, 0.5);
     border-radius: 10px;
-    font-family: 'VT323', monospace;
+    font-family: 'Pixelify Sans', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
