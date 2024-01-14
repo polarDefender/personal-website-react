@@ -5,10 +5,10 @@ function Blogs() {
     const blogs = [
         {   name: "blog1",
             url: "https://medium.com/@charliechasegray/map-a-beginners-guide-to-js-array-methods-e55024733ac4",
-            description: `map() — A Beginner's Guide to JS Array Methods`},
+            description: `Array.prototype.map(): A Beginner's Guide to JavaScript Array Methods`},
         {   name: "blog2",
             url: "https://medium.com/@charliechasegray/all-about-state-react-jss-usestate-hook-df90e8149e19",
-            description: `All About State: React JS's useState Hook`}
+            description: `All About State: React.js's useState Hook`}
     ];
     return (
         <div className="bloglist">

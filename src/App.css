@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 
 body {
-    background: url("https://images.pexels.com/photos/4175070/pexels-photo-4175070.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center center fixed;
+    background: url("https://i.imgur.com/4Z49On2.jpg") no-repeat center center fixed;
     background-size: 100% 100%;
     display: grid;
     place-items: center;
@@ -20,6 +20,10 @@ body {
     background-color: rgb(255, 255, 255, 0.5);
     border-radius: 10px;
     font-family: 'Zen Dots', sans-serif;
+}
+
+.about p, h1, h2, h3 {
+    text-align: center;
 }
 
 h1 {

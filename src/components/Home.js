@@ -3,8 +3,14 @@ import React from "react";
 function Home() {
     return (
         <div className="about">
-            <h1>Hi! My name is Charlie Chase Gray!</h1>
-            <p>As a skilled Front-End React Developer, I excel in creating dynamic, responsive web applications with seamless user experiences. Utilizing React's robust capabilities, I develop intuitive interfaces, enhance performance, and apply cutting-edge design patterns. My expertise lies in transforming complex challenges into user-friendly, visually appealing solutions that perform flawlessly across diverse platforms and devices. Join me in blending creativity with technology to innovate and inspire!</p>
+            <h1>Charlie Chase Productions</h1>
+            <h2>Professional Excellence in Full Stack Development</h2>
+            <p>Hello, and welcome to Charlie Chase Productions, the center for all of my software development endeavors. I'm Charlie, a passionate full stack developer with a flair for creating dynamic and user-friendly web applications. My journey in software development is marked by a deep expertise in JavaScript, with an exceptional skill set in React, making me adept at crafting responsive and interactive user interfaces. React isn't just a tool for me; it's a canvas where I blend functionality with creativity.</p>
+
+            <p>My proficiency doesn't stop at front-end technologies. I'm equally skilled in Python, utilizing its powerful and efficient nature to develop robust back-end solutions. Combined with Flask, I create seamless and scalable server-side applications. Moreover, my knowledge of SQL ensures that data management and manipulation in my applications are both efficient and secure.</p>
+
+            <p>Dive into my portfolio to see how I bring together JavaScript, React, Python, Flask, and SQL to build seamless, full-stack solutions that not only meet but exceed user expectations.</p>
+            <h3>Let's embark on this journey of innovation and excellence together!</h3>
         </div>
     )
 }
