@@ -115,6 +115,10 @@ function Contact() {
                 </button>
             </form>
             {isSubmitted ? <p>Thank you for your submission! I will be in touch shortly!</p> : null}
+            <br/>
+            <div className="contact-logo">
+                <img src="https://i.imgur.com/EULjniJ.png" alt="Charlie Chase Productions Logo" />
+            </div>
         </div>
     )
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 
 function Blogs() {
 
@@ -27,6 +28,8 @@ function Blogs() {
                     </li>
                 ))}
             </ul>
+            <br/>
+            <Footer />
         </div>
     )
 }
