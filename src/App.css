@@ -368,16 +368,17 @@ a:hover {
     }
 
     .about, .portfolio, .bloglist, .contact {
-        width: 75%;
+        width: 80%;
         padding: 5%;
     }
 
-    .pricing-intro, .basic, .plus, .elite, .additional-services {
-        width: 75%;
+    .pricing-intro , .basic, .plus, .elite, .additional-services {
+        width: 80%;
         padding: 10%;
     }
 
-    p, h1, h2, h3 {
+    .pricing-intro p, .basic p, .plus p, .elite p, .additional-services p, .pricing-intro h1, .basic h1, .plus h1, .elite h1, .additional-services h1, .pricing-intro h2, .basic h2, .plus h2, .elite h2, .additional-services h2, 
+    .pricing-intro h3, .basic h3, .plus h3, .elite h3, .additional-services h3 {
         width: auto;
         margin: auto;
         display: flex;
