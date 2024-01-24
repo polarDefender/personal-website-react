@@ -43,6 +43,19 @@ function Pricing() {
                     <li>4-8 pages</li>
                 </ul>
             </div>
+            <div className="additional-services">
+                <h1>Additional Services</h1>
+                <ul>
+                    <li>Project Maintenance</li>
+                        <ul>
+                            <li>$25 per month</li>
+                            <li>Regular maintenance</li>
+                            <li>Bug fixes</li>
+                            <li>Functionality updates</li>
+                            <li className="last-li">Keeping the headache away from you!</li>
+                        </ul>
+                </ul>
+            </div>
             <Footer />
             <Socials />
         </div>
