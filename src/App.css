@@ -368,18 +368,13 @@ a:hover {
     }
 
     .about, .portfolio, .bloglist, .contact {
-        width: 80%;
+        width: 75%;
         padding: 5%;
     }
 
-    .pricing-intro, .basic, .plus, .elite {
-        width: 80%;
+    .pricing-intro, .basic, .plus, .elite, .additional-services {
+        width: 75%;
         padding: 10%;
-    }
-
-    .additional-services {
-        width: 80%;
-        padding: 15%;
     }
 
     p, h1, h2, h3 {
