@@ -166,14 +166,14 @@ a:hover {
 }
 
 .contact {
-    max-width: 100vw;
-    height: 120vh;
-    margin-top: 200px;
-    margin-bottom: 200px;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding-bottom: 100px;
-    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 10%;
+    padding-top: 10%;
     background-color: rgb(255, 255, 255, 0.5);
     border-radius: 10px;
     font-family: 'Pixelify Sans', sans-serif;
@@ -191,8 +191,14 @@ a:hover {
 .contact form {
     display: flex;
     flex-direction: column;
-    max-width: 500px;
     width: 80%;
+}
+
+.about-background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact label {
@@ -326,6 +332,20 @@ a:hover {
 }
 
 .contact-background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloglist-background {
     display: flex;
     flex-direction: column;
     justify-content: center;

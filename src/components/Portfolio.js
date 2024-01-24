@@ -10,25 +10,25 @@ function Portfolio() {
     ];
 
     return (
-        <div className="portfolio">
-            <h1>Portfolio Projects</h1>
-            <p className="portfolio-p">Welcome to my portfolio page! Below is a list of links to repositories of significant projects I have completed!</p>
-            <br/>
+        <div className="portfolio-background">
+            <div className="portfolio">
+                <h1>Portfolio Projects</h1>
+                <p className="portfolio-p">Welcome to my portfolio page! Below is a list of links to repositories of significant projects I have completed!</p>
+                <br/>
 
-            <ul className="repos">
-                {repos.map(repo => (
-                    <>
-                        <li key={repo.name}>
-                            <a href={repo.url} target="blank">{repo.description}</a>
-                        </li>
-                        <br/>
-                    </>
-                ))}
-            </ul>
-            <br/>
-            <Socials />
-            <br/>
+                <ul className="repos">
+                    {repos.map(repo => (
+                        <>
+                            <li key={repo.name}>
+                                <a href={repo.url} target="blank">{repo.description}</a>
+                            </li>
+                            <br/>
+                        </>
+                    ))}
+                </ul>
+            </div>
             <Footer />
+            <Socials />
         </div>
     )
 }

@@ -119,9 +119,8 @@ function Contact() {
                 </form>
                 {isSubmitted ? <p>Thank you for your submission! I will be in touch shortly!</p> : null}
             </div>
-            <Socials />
-            <br/>
             <Footer />
+            <Socials />
         </div>
     )
 }

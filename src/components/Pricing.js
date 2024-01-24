@@ -43,10 +43,8 @@ function Pricing() {
                     <li>4-8 pages</li>
                 </ul>
             </div>
-            <br/>
-            <Socials />
-            <br/>
             <Footer />
+            <Socials />
         </div>
         
         </>
