@@ -359,7 +359,7 @@ a:hover {
 
 @media (max-width: 768px) {
     .navbar {
-        width: 100%;
+        width: auto;
         padding: 5px;
     }
 
@@ -372,13 +372,17 @@ a:hover {
         padding: 5%;
     }
 
-    p, h1, h2, h3, li {
-        width: 50%;
+    p, h1, h2, h3 {
+        width: auto;
         margin: auto;
         display: flex;
         flex-direction: column;
         justify-self: center;
         align-self: center;
+    }
+
+    li {
+        width: auto;
     }
 }
 
