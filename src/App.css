@@ -367,12 +367,12 @@ a:hover {
         font-size: 14px;;
     }
 
-    div {
+    .about, .portfolio, .bloglist, .pricing-intro, .basic, .plus, .elite, .additional-services, .contact {
         width: 80%;
         padding: 5%;
     }
 
-    p, h1, h2, h3 {
+    p, h1, h2, h3, li {
         width: 50%;
         margin: auto;
         display: flex;
