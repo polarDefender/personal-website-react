@@ -366,6 +366,20 @@ a:hover {
     .nav-item {
         font-size: 14px;;
     }
+
+    div {
+        width: 80%;
+        padding: 5%;
+    }
+
+    p, h1, h2, h3 {
+        width: 50%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-self: center;
+    }
 }
 
 .tier {
