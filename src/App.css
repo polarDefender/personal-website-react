@@ -301,7 +301,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    gap: 20%;
+    gap: 15%;
 
 }
 
@@ -379,5 +379,5 @@ a:hover {
 
 .details li {
     font-family: 'Zen Dots', sans-serif;
-    font-size: 1em;
+    font-size: .75em;
 }
