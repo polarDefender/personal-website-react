@@ -10,7 +10,7 @@ function Socials() {
                 <img src="https://i.imgur.com/bXaQajQ.png" alt="github logo"/>
             </a>
             <a href="https://www.linkedin.com/in/charliechasegray/">
-                <img src="https://i.imgur.com/778TOef.png" alt="linkedin logo"/>
+                <img src="https://i.imgur.com/DGWfMpC.png" alt="linkedin logo"/>
             </a>
         </div>
     )
