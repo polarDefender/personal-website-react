@@ -372,8 +372,13 @@ a:hover {
         padding: 5%;
     }
 
-    .pricing-intro, .basic, .plus, .elite, .additional-services {
+    .pricing-intro, .basic, .plus, .elite {
         width: 80%;
+        padding: 10%;
+    }
+
+    .additional-services {
+        width: 90%;
         padding: 10%;
     }
 
