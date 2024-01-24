@@ -249,3 +249,57 @@ a:hover {
     margin: 2.5%;
     width: 25%;
 }
+
+.price-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    max-height: 80%;
+    margin-top: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.tier-and-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.tier-and-price h1 {
+    margin: auto;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.details {
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.basic, .plus, .elite {
+    margin-bottom: 10%;
+    background-color: rgb(255, 255, 255, 0.5);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.basic {
+    margin-top: 10%;
+}
+
+.pricing-intro {
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 5%;
+    border-radius: 10px;
+    width: 100%;
+}
