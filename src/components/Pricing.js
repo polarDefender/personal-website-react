@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "./Footer";
+import Socials from "./Socials";
 
 function Pricing() {
     return (
@@ -42,8 +43,12 @@ function Pricing() {
                     <li>4-8 pages</li>
                 </ul>
             </div>
+            <br/>
+            <Socials />
+            <br/>
+            <Footer />
         </div>
-        <Footer />
+        
         </>
     )
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "./Footer";
+import Socials from "./Socials";
 
 function Blogs() {
 
@@ -18,16 +19,21 @@ function Blogs() {
             <br/>
             <ul className="blogs">
                 {blogs.map(blog => (
-                    <li className="blog-li" key={blog.name}>
-                        <a 
-                            href={blog.url} 
-                            target="blank"
-                        >
-                            {blog.description}
-                        </a>
-                    </li>
+                    <>
+                        <li className="blog-li" key={blog.name}>
+                            <a 
+                                href={blog.url} 
+                                target="blank"
+                            >
+                                {blog.description}
+                            </a>
+                        </li>
+                        <br/>
+                    </>
                 ))}
             </ul>
+            <br/>
+            <Socials />
             <br/>
             <Footer />
         </div>
