@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "./Footer";
 
-function Projects() {
+function Portfolio() {
 
     const repos = [
         {name: "repo1", url: "https://weather-app-eight-azure-11.vercel.app/", description: "Weather Forecast By Zip Code (React)"},
@@ -43,4 +43,4 @@ function Projects() {
     )
 }
 
-export default Projects;
+export default Portfolio;
