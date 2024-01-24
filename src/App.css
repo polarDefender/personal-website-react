@@ -367,9 +367,14 @@ a:hover {
         font-size: 14px;
     }
 
-    .about, .portfolio, .bloglist, .pricing-intro, .basic, .plus, .elite, .additional-services, .contact {
+    .about, .portfolio, .bloglist, .contact {
         width: 80%;
         padding: 5%;
+    }
+
+    .pricing-intro, .basic, .plus, .elite, .additional-services {
+        width: 80%;
+        padding: 10%;
     }
 
     p, h1, h2, h3 {
