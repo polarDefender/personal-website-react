@@ -360,10 +360,11 @@ a:hover {
 @media (max-width: 600px) {
     .navbar {
         width: 100%;
+        justify-content: space-between;
     }
 
     .nav-item {
-        font-size: 14px;;
+        font-size: 14px;
     }
 
     .about, .portfolio, .bloglist, .pricing-intro, .basic, .plus, .elite, .additional-services, .contact {
