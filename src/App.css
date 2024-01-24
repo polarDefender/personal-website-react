@@ -288,7 +288,7 @@ a:hover {
 
 .tier-and-price {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     width: 80%;
     align-items: center;
@@ -301,7 +301,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    gap: 10%;
+    gap: 20%;
 
 }
 
@@ -366,4 +366,18 @@ a:hover {
     .nav-item {
         font-size: 14px;;
     }
+}
+
+.tier {
+    text-decoration: underline;
+    font-size: 2.5em;
+}
+
+.pricing {
+    font-weight: 500;
+}
+
+.details li {
+    font-family: 'Zen Dots', sans-serif;
+    font-size: 1em;
 }
