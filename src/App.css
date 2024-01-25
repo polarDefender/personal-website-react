@@ -365,6 +365,7 @@ a:hover {
     .navbar {
         width: 100%;
         justify-content: space-between;
+        overflow: auto;
     }
 
     .nav-item {
