@@ -1,4 +1,5 @@
 import React from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -12,6 +13,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
+        <Analytics />
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
