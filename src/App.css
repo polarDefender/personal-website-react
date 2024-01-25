@@ -377,9 +377,14 @@ a:hover {
         padding: 5%;
     }
 
-    .pricing-intro , .basic, .plus, .elite, .additional-services {
+    .pricing-intro , .basic, .plus, .elite {
         width: 80%;
-        padding: 10%;
+        padding: 5%;
+    }
+
+    .additional-services {
+        width: 90%;
+        padding: 5%;
     }
 
     .pricing-intro p, .basic p, .plus p, .elite p, .additional-services ul, .pricing-intro h1, .basic h1, .plus h1, .elite h1, .additional-services h1, .pricing-intro h2, .basic h2, .plus h2, .elite h2, .additional-services h2, 
