@@ -401,8 +401,8 @@ a:hover {
         width: auto;
     }
 
-    .basic ul, .plus ul, .elite ul {
-        font-size: 1.5em;
+    .details ul, li {
+        font-size: 1em;
     }
 }
 
