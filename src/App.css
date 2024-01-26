@@ -401,7 +401,7 @@ a:hover {
         width: auto;
     }
 
-    .details ul, li {
+    .details, .additional-services ul, .additional-services li {
         font-size: 1em;
     }
 }
