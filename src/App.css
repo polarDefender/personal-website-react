@@ -395,6 +395,7 @@ a:hover {
         flex-direction: column;
         justify-self: center;
         align-self: center;
+        font-size: 1em;
     }
 
     li {
