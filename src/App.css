@@ -478,3 +478,7 @@ a:hover {
 .discount-titles h1 {
     text-decoration: underline;
 }
+
+.pre-booking-discount p {
+    width: 75%;
+}
