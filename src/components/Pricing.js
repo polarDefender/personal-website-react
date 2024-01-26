@@ -52,7 +52,7 @@ function Pricing() {
             </div>
             <div className="additional-services">
                 <h1>Additional Services</h1>
-                <ul>
+                <ul className="details">
                     <li>Project Maintenance</li>
                         <ul>
                             <li>$25 per month</li>
