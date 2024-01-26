@@ -31,8 +31,14 @@ body {
     align-items: center;
 }
 
-.about p, h1, h2, h3 {
+.about h1, h2, h3 {
     text-align: center;
+    width: 80%;
+}
+
+.about p {
+    text-align: justify;
+    width: 80%;
 }
 
 .about h1 {
@@ -329,6 +335,10 @@ a:hover {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
+.pricing-intro p {
+    width: 90%;
+}
+
 .pricing-intro h1 {
     text-decoration: underline;
 }
@@ -489,5 +499,5 @@ a:hover {
 }
 
 .pre-booking-discount p {
-    width: 75%;
+    width: 90%;
 }

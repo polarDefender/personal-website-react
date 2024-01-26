@@ -15,7 +15,7 @@ function Home() {
 
                 <p>Dive into my portfolio to see how I bring together JavaScript, React, Python, Flask, and SQL to build seamless, full-stack solutions that not only meet but exceed user expectations.</p>
                 <br/>
-                <h3>Let's embark on this journey of innovation and excellence together!</h3>
+                <h3 className="outro">Let's embark on this journey of innovation and excellence together!</h3>
                 <br/>
             </div>
             <Footer />
