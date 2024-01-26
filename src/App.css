@@ -397,7 +397,7 @@ a:hover {
         padding: 5%;
     }
 
-    .pricing-intro p, .basic p, .plus p, .elite p, .additional-services ul, .pricing-intro h1, .basic h1, .plus h1, .elite h1, .additional-services h1, .pricing-intro h2, .basic h2, .plus h2, .elite h2, .additional-services h2, 
+    .pricing-intro p, .basic p, .plus p, .elite p, .additional-services .details, .pricing-intro h1, .basic h1, .plus h1, .elite h1, .additional-services h1, .pricing-intro h2, .basic h2, .plus h2, .elite h2, .additional-services h2, 
     .pricing-intro h3, .basic h3, .plus h3, .elite h3, .additional-services h3 {
         width: 75%;
         margin: auto;
@@ -411,7 +411,7 @@ a:hover {
         width: auto;
     }
 
-    .details, .additional-services ul, .additional-services li {
+    .details {
         font-size: 1em;
     }
 }
