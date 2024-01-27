@@ -546,3 +546,10 @@ a:hover {
 .pre-booking-discount p {
     width: 90%;
 }
+
+.company-socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
