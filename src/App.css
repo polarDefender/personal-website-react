@@ -93,7 +93,6 @@ p {
     display: block;
     transition: background-color 0.3s;
     transition: on hover;
-    font-size: 16px;
     font-weight: bold;
     font-family: 'Pixelify Sans', sans-serif;
     font-size: 1.5em;
@@ -374,8 +373,13 @@ a:hover {
 @media only screen and (max-width: 600px) {
 
     .nav-menu {
+        display: none;
         flex-direction: column;
         align-items: stretch;
+    }
+
+    .nav-menu.show {
+        display: flex;
     }
 
     .nav-item {
@@ -388,6 +392,28 @@ a:hover {
 
     .navbar {
         padding: 10px;
+    }
+
+    .nav-toggle {
+        margin: 0;
+        padding: 10px 0;
+        display: block;
+        justify-content: space-around;
+        align-self: center;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.5);
+        color: rgb(137, 110, 255);
+        transition: background-color 0.3s;
+        transition: on hover;
+        font-weight: bold;
+        font-family: 'Pixelify Sans', sans-serif;
+        font-size: 1.5em;
+        
+    }
+    
+    .nav-toggle:hover {
+        background-color: rgba(137, 110, 255, 0.3);
+        color: black;
     }
 
     .about, .portfolio, .bloglist, .contact {
