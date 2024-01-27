@@ -375,7 +375,7 @@ a:hover {
     .navbar {
         width: 100%;
         justify-content: space-between;
-        overflow: auto;
+        overflow: scroll;
     }
 
     .nav-item {

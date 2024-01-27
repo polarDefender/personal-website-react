@@ -4,7 +4,6 @@ import Socials from "./Socials";
 
 function Pricing() {
     return (
-        <>
         <div className="price-list">
             <div className="pricing-intro">
                 <h1>Project Pricing</h1>
@@ -66,8 +65,6 @@ function Pricing() {
             <Footer />
             <Socials />
         </div>
-        
-        </>
     )
 }
 
