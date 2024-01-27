@@ -404,6 +404,7 @@ a:hover {
         text-align: center;
         background-color: rgba(255, 255, 255, 0);
         color: rgb(137, 110, 255);
+        border: none;
         transition: background-color 0.3s;
         transition: on hover;
         font-weight: bold;
