@@ -375,11 +375,11 @@ a:hover {
     .navbar {
         width: 100%;
         justify-content: space-between;
-        overflow: scroll;
+        overflow-x: auto;
     }
 
     .nav-item {
-        font-size: 14px;
+        font-size: 1em;
     }
 
     .about, .portfolio, .bloglist, .contact {
