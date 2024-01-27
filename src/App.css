@@ -444,6 +444,14 @@ a:hover {
         align-self: center;
     }
 
+    .pricing-intro {
+        margin-top: 30%;
+    }
+
+    .additional-services {
+        margin-bottom: 30%;
+    }
+
     li {
         width: auto;
     }
