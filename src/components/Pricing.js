@@ -19,7 +19,8 @@ function Pricing() {
             <div className="basic">
                 <div className="tier-and-price">
                     <h1 className="tier">Basic</h1>
-                    <h1 className="pricing">Estimate: $500-$1500</h1>
+                    <h1 className="estimate">Estimate:</h1>
+                    <h1 className="pricing">$500-$1500</h1>
                 </div>
                 <ul className="details">
                     <li>$25 per hour</li>
@@ -30,7 +31,8 @@ function Pricing() {
             <div className="plus">
                 <div className="tier-and-price">
                     <h1 className="tier">Plus</h1>
-                    <h1 className="pricing">Estimate: $1500-$3000</h1>
+                    <h1 className="estimate">Estimate:</h1>
+                    <h1 className="pricing">$1500-$3000</h1>
                 </div>
                 <ul className="details">
                     <li>$25 per hour</li>
@@ -41,7 +43,8 @@ function Pricing() {
             <div className="elite">
                 <div className="tier-and-price">
                     <h1 className="tier">Elite</h1>
-                    <h1 className="pricing">Estimate: $3000-$6000</h1>
+                    <h1 className="estimate">Estimate:</h1>
+                    <h1 className="pricing">$3000-$6000</h1>
                 </div>
                 <ul className="details">
                     <li>$25 per hour</li>

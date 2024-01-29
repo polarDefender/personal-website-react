@@ -595,6 +595,11 @@ a:hover {
     font-size: 1.25em;
 }
 
+.estimate {
+    font-weight: 600;
+    font-size: 1.25em;
+}
+
 .additional-services {
     display: flex;
     flex-direction: column;
