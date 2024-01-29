@@ -525,6 +525,10 @@ a:hover {
         line-height: 1.5;
     }
 
+    .pricing-intro p {
+        margin: 5%;
+    }
+
     h1.tier {
         font-size: 1.75em !important;
     }
