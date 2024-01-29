@@ -141,7 +141,7 @@ p {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 90%;
+    width: 85%;
 }
 
 .portfolio ul {
@@ -213,7 +213,6 @@ a:hover {
 
 .contact {
     width: 75%;
-    /* height: 80%; */
     margin-top: 20%;
     margin-bottom: 20%;
     margin-left: 10%;
@@ -451,7 +450,7 @@ a:hover {
     .nav-toggle {
         margin: auto;
         width: 95%;
-        padding: 5%;
+        padding: 2.5%;
         display: block;
         justify-content: space-around;
         align-self: center;
@@ -473,18 +472,18 @@ a:hover {
     }
 
     .about, .portfolio, .bloglist, .contact {
-        width: 80%;
-        padding: 5%;
+        width: 75%;
+        padding: 2.5%;
     }
 
     .pricing-intro , .basic, .plus, .elite {
-        width: 80%;
-        padding: 5%;
+        width: 75%;
+        padding: 2.5%;
     }
 
     .additional-services {
-        width: 90%;
-        padding: 5%;
+        width: 75%;
+        padding: 2.5%;
     }
 
     .pricing-intro p, .basic p, .plus p, .elite p, .additional-services .details, .pricing-intro h1, .basic h1, .plus h1, .elite h1, .additional-services h1, .pricing-intro h2, .basic h2, .plus h2, .elite h2, .additional-services h2, 
