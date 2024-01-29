@@ -422,6 +422,7 @@ a:hover {
         -moz-hyphens: auto;
         -webkit-hyphens: auto;
         hyphens: auto;
+        line-height: 1.5;
     }
 
     .nav-menu {
@@ -525,7 +526,6 @@ a:hover {
         font-size: 1.25em;
         font-family: 'Orbitron', sans-serif;
         text-align: justify;
-        font-size: 1.25em;
         word-wrap: break-word;
         overflow-wrap: break-word;
         -ms-hyphens: auto;
@@ -533,6 +533,7 @@ a:hover {
         -webkit-hyphens: auto;
         hyphens: auto;
         width: 90%;
+        line-height: 1.5;
     }
 
     .bloglist a, .portfolio a {
