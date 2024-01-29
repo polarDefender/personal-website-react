@@ -508,6 +508,10 @@ a:hover {
         justify-content: center;
         text-align: center;
     }
+
+    div {
+        width: 75%;
+    }
 }
 
 .header-li {
