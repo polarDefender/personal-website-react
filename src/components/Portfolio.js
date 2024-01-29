@@ -13,7 +13,7 @@ function Portfolio() {
         <div className="portfolio-background">
             <div className="portfolio">
                 <h1>Portfolio Projects</h1>
-                <p className="portfolio-p">Welcome to my portfolio page! Below is a list of links to repositories of significant projects I have completed!</p>
+                <p className="portfolio-p">Welcome to my portfolio page! Below is a list of links to deployments of significant projects I have completed!</p>
                 <br/>
 
                 <ul className="repos">
