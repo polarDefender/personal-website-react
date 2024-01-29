@@ -302,7 +302,7 @@ a:hover {
 }
 
 .details {
-    font-size: 1.5em;
+    font-family: 'Zen Dots', sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -464,9 +464,22 @@ a:hover {
         text-align: center;
     }
 
-    .details {
-        font-size: 1em;
+    .pricing, .discount {
+        font-size: 1.25em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
     }
+}
+
+.header-li {
+    font-size: 1.25em;
+    font-weight: 600;
+}
+
+.discount {
+    font-size: 1.25em;
 }
 
 .tier {
@@ -476,11 +489,7 @@ a:hover {
 
 .pricing {
     font-weight: 500;
-}
-
-.details li {
-    font-family: 'Zen Dots', sans-serif;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 .additional-services {
@@ -499,7 +508,6 @@ a:hover {
     font-family: 'Zen Dots', sans-serif;
     line-height: 2.0;
     text-align: left;
-    font-size: 1em;
     width: 75%;
 }
 
@@ -508,7 +516,6 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
 .additional-services .last-li {
@@ -538,7 +545,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 75%;
+    width: 80%;
 }
 
 .discount-titles h1 {
