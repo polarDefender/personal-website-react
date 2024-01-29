@@ -348,6 +348,7 @@ a:hover {
     flex-direction: row;
     justify-content: space-evenly;
     gap: 15%;
+    width: 90%;
 
 }
 
@@ -376,9 +377,9 @@ a:hover {
 }
 
 .pricing-intro p, .pricing-intro h1 {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .pricing-intro h1 {
@@ -490,12 +491,15 @@ a:hover {
     }
 
     .additional-services {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 80%;
         padding: 5%;
     }
 
-    .pricing-intro p, .basic p, .plus p, .elite p, .additional-services .details, .pricing-intro h1, .basic h1, .plus h1, .elite h1, .additional-services h1, .pricing-intro h2, .basic h2, .plus h2, .elite h2, .additional-services h2, 
-    .pricing-intro h3, .basic h3, .plus h3, .elite h3, .additional-services h3 {
+    .pricing-intro p, .basic p, .plus p, .elite p, .pricing-intro h1, .basic h1, .plus h1, .elite h1, .pricing-intro h2, .basic h2, .plus h2, .elite h2, 
+    .pricing-intro h3, .basic h3, .plus h3, .elite h3 {
         width: 80%;
         margin: auto;
         display: flex;
@@ -543,7 +547,7 @@ a:hover {
         width: auto;
     }
 
-    .pricing-intro h1, .pre-booking-discount h1, .basic h1, .plus h1, .elite h1, .additional-services h1 {
+    .pricing-intro h1, .pre-booking-discount h1, .basic h1, .plus h1, .elite h1  {
         font-size: 1.5em;
         font-family: 'Orbitron', sans-serif;
         display: flex;
@@ -580,7 +584,7 @@ a:hover {
 
 .tier {
     text-decoration: underline;
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .pricing {
@@ -604,20 +608,15 @@ a:hover {
     font-family: 'Orbitron', sans-serif;
     line-height: 2.0;
     text-align: left;
-    width: 75%;
+    width: 80%;
 }
 
 .additional-services ul {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align: center;
-    width: 80%;
-}
-
-.additional-services .details {
-    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .additional-services .last-li {
