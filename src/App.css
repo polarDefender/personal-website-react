@@ -410,8 +410,7 @@ a:hover {
 
     p {
         text-align: justify;
-        text-align-last: justify;
-        font-size: 1.15em;
+        font-size: 1.25em;
         word-wrap: break-word;
         word-spacing: 0.25em;
     }
