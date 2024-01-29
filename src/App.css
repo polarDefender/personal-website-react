@@ -410,8 +410,7 @@ a:hover {
 
     p {
         text-align: justify;
-        width: 90%;
-        padding: 0 5%;
+        font-size: 1.15em;
     }
 
     .nav-menu {
