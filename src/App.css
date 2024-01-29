@@ -433,7 +433,7 @@ a:hover {
 
     .nav-menu.show {
         display: flex;
-        backdrop-filter: blur(100%);
+        backdrop-filter: blur(10px);
     }
 
     .nav-item {
