@@ -466,6 +466,7 @@ a:hover {
 
     .pricing, .discount {
         font-size: 1.25em;
+        font-family: 'Zen Dots', sans-serif;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -488,8 +489,8 @@ a:hover {
 }
 
 .pricing {
-    font-weight: 500;
-    font-size: 1.5em;
+    font-weight: 600;
+    font-size: 1.25em;
 }
 
 .additional-services {
