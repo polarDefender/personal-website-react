@@ -409,10 +409,10 @@ a:hover {
 @media only screen and (max-width: 600px) {
 
     p {
-        display: inline-block;
-        text-align: left;
+        text-align: justify;
         font-size: 1.25em;
-        width: 80%;
+        word-wrap: break-word;
+        word-spacing: 0.5em;
     }
 
     .nav-menu {
@@ -470,7 +470,6 @@ a:hover {
     .pricing-intro , .basic, .plus, .elite {
         width: 80%;
         padding: 5%;
-        text-align: center;
     }
 
     .additional-services {
