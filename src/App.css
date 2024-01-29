@@ -506,6 +506,18 @@ a:hover {
         margin-bottom: 5%;
     }
 
+    .pre-booking-discount p, .pricing-intro p {
+        text-align: justify;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        -ms-hyphens: auto;
+        -moz-hyphens: auto;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+        width: 90%;
+        line-height: 1.5;
+    }
+
     .additional-services {
         margin-bottom: 30%;
     }
@@ -525,15 +537,7 @@ a:hover {
     .pricing, .discount {
         font-size: 1.25em;
         font-family: 'Orbitron', sans-serif;
-        text-align: justify;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        -ms-hyphens: auto;
-        -moz-hyphens: auto;
-        -webkit-hyphens: auto;
-        hyphens: auto;
         width: 90%;
-        line-height: 1.25;
     }
 
     .bloglist a, .portfolio a {
