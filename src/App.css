@@ -16,11 +16,11 @@ body {
 }
 
 .about {
-    width: 80vw;
-    margin-top: 200px;
-    margin-bottom: 200px;
-    margin-left: 100px;
-    margin-right: 100px;
+    width: 80%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     padding: 20px;
     background-color: rgb(255, 255, 255, 0.5);
     border-radius: 10px;
@@ -34,6 +34,10 @@ body {
 .about h1, h2, h3 {
     text-align: center;
     width: 80%;
+}
+
+.about h3 {
+    font-size: 1.25em;
 }
 
 .about p {
@@ -137,10 +141,11 @@ p {
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 90%;
 }
 
 .portfolio ul {
-    width: 80%;
+    width: 90%;
 }
 
 .blogs-p {
@@ -160,10 +165,6 @@ a:hover {
     color: black;
 }
 
-.linkedin {
-    margin-bottom: 50px;
-}
-
 .repos {
     list-style-type: none;
     text-align: center;
@@ -179,10 +180,10 @@ a:hover {
 
 .bloglist {
     width: 80%;
-    margin-top: 200px;
-    margin-bottom: 200px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     padding: 20px;
     background-color: rgb(255, 255, 255, 0.5);
     border-radius: 10px;
