@@ -29,6 +29,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: left;
 }
 
 .about h1, h2, h3 {
@@ -38,11 +39,6 @@ body {
 
 .about h3 {
     font-size: 1.25em;
-}
-
-.about p {
-    text-align: justify;
-    width: 80%;
 }
 
 .about h1 {
@@ -61,8 +57,13 @@ h1 {
 p {
     font-family: 'Orbitron', sans-serif;
     line-height: 1.5;
-    text-align: justify;
     font-size: 1.25em;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
 }
 
 .navbar {
@@ -204,7 +205,7 @@ a:hover {
 }
 
 .bloglist h1, .bloglist p {
-    width: 90%;
+    width: 80%;
 }
 
 .bloglist h1 {
@@ -376,6 +377,8 @@ a:hover {
 
 .pricing-intro p, .pricing-intro h1 {
     width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .pricing-intro h1 {
@@ -414,7 +417,8 @@ a:hover {
 @media only screen and (max-width: 600px) {
 
     p {
-        text-align: justify;
+        font-family: 'Orbitron', sans-serif;
+        text-align: left;
         font-size: 1.25em;
         word-wrap: break-word;
         overflow-wrap: break-word;
@@ -423,6 +427,7 @@ a:hover {
         -webkit-hyphens: auto;
         hyphens: auto;
         line-height: 1.5;
+        width: 80%;
     }
 
     .nav-menu {
@@ -491,7 +496,7 @@ a:hover {
 
     .pricing-intro p, .basic p, .plus p, .elite p, .additional-services .details, .pricing-intro h1, .basic h1, .plus h1, .elite h1, .additional-services h1, .pricing-intro h2, .basic h2, .plus h2, .elite h2, .additional-services h2, 
     .pricing-intro h3, .basic h3, .plus h3, .elite h3, .additional-services h3 {
-        width: 75%;
+        width: 80%;
         margin: auto;
         display: flex;
         flex-direction: column;
@@ -506,17 +511,19 @@ a:hover {
     .pricing-intro p {
         margin-top: 5%;
         margin-bottom: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     .pre-booking-discount p, .pricing-intro p {
-        text-align: justify;
+        text-align: left;
         word-wrap: break-word;
         overflow-wrap: break-word;
         -ms-hyphens: auto;
         -moz-hyphens: auto;
         -webkit-hyphens: auto;
         hyphens: auto;
-        width: 90%;
+        width: 80%;
         line-height: 1.5;
     }
 
@@ -637,6 +644,7 @@ a:hover {
 
 .pre-booking-discount h1, .pre-booking-discount p {
     width: 80%;
+    
 }
 
 .discount-titles {
@@ -656,7 +664,9 @@ a:hover {
 }
 
 .pre-booking-discount p {
-    width: 90%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .company-socials {
