@@ -412,6 +412,7 @@ a:hover {
         text-align: justify;
         font-size: 1em;
         letter-spacing: 0.1em;
+        word-spacing: 0.1em;
     }
 
     .nav-menu {
