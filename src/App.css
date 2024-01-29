@@ -470,6 +470,7 @@ a:hover {
     .pricing-intro , .basic, .plus, .elite {
         width: 80%;
         padding: 5%;
+        text-align: center;
     }
 
     .additional-services {
