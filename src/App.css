@@ -408,6 +408,10 @@ a:hover {
 
 @media only screen and (max-width: 600px) {
 
+    p {
+        text-justify: distribute;
+    }
+
     .nav-menu {
         display: none;
         flex-direction: column;
