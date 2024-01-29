@@ -409,10 +409,10 @@ a:hover {
 @media only screen and (max-width: 600px) {
 
     p {
-        text-align: justify;
+        display: inline-block;
+        text-align: left;
         font-size: 1.25em;
-        word-wrap: break-word;
-        word-spacing: 0.25em;
+        width: 80%;
     }
 
     .nav-menu {
