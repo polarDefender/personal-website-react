@@ -409,7 +409,9 @@ a:hover {
 @media only screen and (max-width: 600px) {
 
     p {
-        text-justify: distribute;
+        text-align: justify;
+        width: 90%;
+        padding: 0 5%;
     }
 
     .nav-menu {
