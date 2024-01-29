@@ -528,6 +528,7 @@ a:hover {
 
     .pricing-intro h1, .pre-booking-discount h1, .basic h1, .plus h1, .elite h1, .additional-services h1 {
         font-size: 1.5em;
+        font-family: 'Orbitron', sans-serif;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -535,7 +536,7 @@ a:hover {
     }
 
     .pricing, .discount {
-        font-size: 1.25em;
+        font-size: 1em;
         font-family: 'Orbitron', sans-serif;
         width: 90%;
     }
