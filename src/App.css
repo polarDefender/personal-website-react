@@ -420,7 +420,7 @@ a:hover {
     p {
         font-family: 'Orbitron', sans-serif;
         justify-self: center;
-        text-align: left;
+        text-align: center;
         font-size: 1.25em;
         word-wrap: break-word;
         overflow-wrap: break-word;
