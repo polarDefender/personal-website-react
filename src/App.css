@@ -437,7 +437,7 @@ a:hover {
     }
 
     .nav-item {
-        padding: 10px 10px;
+        padding: 10px;
     }
 
     .nav-item a {
@@ -471,6 +471,7 @@ a:hover {
     .nav-toggle:hover {
         background-color: rgba(137, 110, 255, 0.3);
         color: black;
+        width: 100%;
     }
 
     .about, .portfolio, .bloglist, .contact {
