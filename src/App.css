@@ -513,15 +513,8 @@ a:hover {
         margin-top: 50%;
     }
 
-    .pricing-intro p {
-        margin-top: 5%;
-        margin-bottom: 5%;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-
     .pre-booking-discount p, .pricing-intro p {
-        text-align: left;
+        text-align: center;
         word-wrap: break-word;
         overflow-wrap: break-word;
         -ms-hyphens: auto;
@@ -542,6 +535,7 @@ a:hover {
 
     .additional-services {
         margin-bottom: 30%;
+        width: 80%;
     }
 
     li {
@@ -570,6 +564,10 @@ a:hover {
 
     .tier-and-price {
         width: 90%;
+    }
+
+    .details {
+        width: 80%;
     }
 }
 
