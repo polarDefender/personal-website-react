@@ -11,7 +11,7 @@ function Pricing() {
             </div>
             <div className="pre-booking-discount">
                 <div className="discount-titles">
-                    <h1>Pre-Booking Discount</h1>
+                    <h1 className="pre-booking-title">Pre-Booking Discount</h1>
                     <h1 className="discount">20% Off Total Cost Until April 1, 2024</h1>
                 </div>
                 <p>While attending to some personal projects, I will not actively be taking clients until April 1, 2024. With that said, anyone who pre-books their project with me (deposit paid and contract signed) until April 1 will receive 20% off their total project cost!</p>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
 html, body {
     margin: 0;
@@ -24,7 +24,7 @@ body {
     padding: 20px;
     background-color: rgb(255, 255, 255, 0.5);
     border-radius: 10px;
-    font-family: 'Zen Dots', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,10 +43,11 @@ body {
 
 .about h1 {
     margin-top: 2.5%;
+    text-decoration: underline;
 }
 
 h1 {
-    font-family: 'Zen Dots', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     line-height: 1.5;
     margin-bottom: 0.5em;
     text-align: center;
@@ -54,10 +55,10 @@ h1 {
 }
 
 p {
-    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     line-height: 1.5;
     text-align: justify;
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 .navbar {
@@ -94,7 +95,7 @@ p {
     transition: background-color 0.3s;
     transition: on hover;
     font-weight: bold;
-    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-size: 1.5em;
 }
 
@@ -104,24 +105,42 @@ p {
 }
 
 .portfolio {
-    width: 80vw;
-    margin-top: 200px;
-    margin-bottom: 200px;
-    margin-left: 100px;
-    margin-right: 100px;
+    width: 80%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     padding: 20px;
     background-color: rgb(255, 255, 255, 0.5);
     border-radius: 10px;
-    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
 
+.portfolio h1 {
+    text-decoration: underline;
+    width: 80%;
 }
 
 .portfolio-p {
     text-align: center;
+    width: 80%;
+}
+
+.portfolio a {
+    font-size: 1.75em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.portfolio ul {
+    width: 80%;
 }
 
 .blogs-p {
@@ -159,7 +178,7 @@ a:hover {
 }
 
 .bloglist {
-    width: 80vw;
+    width: 80%;
     margin-top: 200px;
     margin-bottom: 200px;
     margin-left: 100px;
@@ -167,12 +186,28 @@ a:hover {
     padding: 20px;
     background-color: rgb(255, 255, 255, 0.5);
     border-radius: 10px;
-    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+}
+
+.bloglist a {
+    font-size: 1.75em;
+    width: 90%;
+}
+
+.bloglist ul {
+    width: 90%;
+}
+
+.bloglist h1, .bloglist p {
+    width: 90%;
+}
+
+.bloglist h1 {
+    text-decoration: underline;
 }
 
 .contact {
@@ -186,7 +221,7 @@ a:hover {
     padding-top: 5%;
     background-color: rgb(255, 255, 255, 0.5);
     border-radius: 10px;
-    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -302,7 +337,7 @@ a:hover {
 }
 
 .details {
-    font-family: 'Zen Dots', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -334,12 +369,13 @@ a:hover {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-.pricing-intro p {
-    width: 90%;
+.pricing-intro p, .pricing-intro h1 {
+    width: 80%;
 }
 
 .pricing-intro h1 {
     text-decoration: underline;
+    margin-bottom: 5%;
 }
 
 .socials {
@@ -409,7 +445,7 @@ a:hover {
         transition: background-color 0.3s;
         transition: on hover;
         font-weight: bold;
-        font-family: 'Pixelify Sans', sans-serif;
+        font-family: 'Orbitron', sans-serif;
         font-size: 1.5em;
         
     }
@@ -466,7 +502,7 @@ a:hover {
 
     .pricing, .discount {
         font-size: 1.25em;
-        font-family: 'Zen Dots', sans-serif;
+        font-family: 'Orbitron', sans-serif;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -481,6 +517,7 @@ a:hover {
 
 .discount {
     font-size: 1.25em;
+    text-decoration: none;
 }
 
 .tier {
@@ -506,7 +543,7 @@ a:hover {
 }
 
 .additional-services li {
-    font-family: 'Zen Dots', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     line-height: 2.0;
     text-align: left;
     width: 75%;
@@ -517,10 +554,16 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    width: 80%;
+}
+
+.additional-services .details {
+    margin-top: 5%;
 }
 
 .additional-services .last-li {
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .additional-services h1 {
@@ -541,6 +584,10 @@ a:hover {
     padding: 5%
 }
 
+.pre-booking-discount h1, .pre-booking-discount p {
+    width: 80%;
+}
+
 .discount-titles {
     display: flex;
     flex-direction: column;
@@ -549,13 +596,12 @@ a:hover {
     width: 80%;
 }
 
-.discount-titles h1 {
+.pre-booking-title {
     text-decoration: underline;
-    width: 75%;
 }
 
-.discount-titles h2 {
-    width: 75%;
+.discount-titles h1 {
+    width: 80%;
 }
 
 .pre-booking-discount p {
