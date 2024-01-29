@@ -553,6 +553,10 @@ a:hover {
         font-size: 1.25em;
         width: 75%;
     }
+
+    .tier-and-price {
+        width: 90%;
+    }
 }
 
 .header-li {
@@ -638,7 +642,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 70%;
 }
 
 .pre-booking-title {
