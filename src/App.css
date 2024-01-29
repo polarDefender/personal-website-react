@@ -410,7 +410,8 @@ a:hover {
 
     p {
         text-align: justify;
-        font-size: 1.1em;
+        font-size: 1em;
+        letter-spacing: 0.1em;
     }
 
     .nav-menu {
@@ -506,7 +507,7 @@ a:hover {
     }
 
     .pricing, .discount {
-        font-size: 1em;
+        font-size: .75em;
         font-family: 'Orbitron', sans-serif;
         display: flex;
         flex-direction: column;
