@@ -518,12 +518,12 @@ a:hover {
         line-height: 1.5;
     }
 
-    .tier {
-        font-size: 1.5em;
+    h1.tier {
+        font-size: 1.5em !important;
     }
 
-    .pricing, .discount {
-        font-size: 1em;
+    h1.pricing, h1.discount {
+        font-size: 1em !important;
     }
 
     .additional-services {
