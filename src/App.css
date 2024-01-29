@@ -456,6 +456,14 @@ a:hover {
         width: auto;
     }
 
+    .pricing-intro h1, .pre-booking-discount h1, .basic h1, .plus h1, .elite h1 {
+        font-size: 1.5em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
     .details {
         font-size: 1em;
     }
