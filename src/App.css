@@ -492,6 +492,11 @@ a:hover {
         margin-top: 50%;
     }
 
+    .pricing-intro p {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
     .additional-services {
         margin-bottom: 30%;
     }
