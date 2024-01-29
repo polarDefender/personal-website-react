@@ -456,7 +456,7 @@ a:hover {
         width: auto;
     }
 
-    .pricing-intro h1, .pre-booking-discount h1, .basic h1, .plus h1, .elite h1 {
+    .pricing-intro h1, .pre-booking-discount h1, .basic h1, .plus h1, .elite h1, .additional-services h1 {
         font-size: 1.5em;
         display: flex;
         flex-direction: column;
