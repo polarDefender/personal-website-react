@@ -410,9 +410,8 @@ a:hover {
 
     p {
         text-align: justify;
-        font-size: 1.25em;
+        font-size: 1em;
         word-wrap: break-word;
-        word-spacing: 0.5em;
     }
 
     .nav-menu {
