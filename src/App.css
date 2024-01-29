@@ -410,7 +410,7 @@ a:hover {
 
     p {
         text-align: justify;
-        font-size: 1em;
+        font-size: 1.25em;
         word-wrap: break-word;
         overflow-wrap: break-word;
         -ms-hyphens: auto;
