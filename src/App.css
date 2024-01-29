@@ -525,7 +525,7 @@ a:hover {
         line-height: 1.5;
     }
 
-    .pricing-intro p {
+    .pricing-intro p, .pricing-intro h1 {
         margin: 5%;
     }
 
