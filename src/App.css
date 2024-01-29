@@ -528,6 +528,7 @@ a:hover {
         -moz-hyphens: auto;
         -webkit-hyphens: auto;
         hyphens: auto;
+        width: 90%;
     }
 }
 
