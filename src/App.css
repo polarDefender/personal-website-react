@@ -173,6 +173,7 @@ a:hover {
 }
 
 .blogs {
+    justify-content: center;
     list-style: none;
     text-align: center;
     align-items: center;
