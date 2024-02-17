@@ -10,7 +10,10 @@ function Blogs() {
             description: `Array.prototype.map(): A Beginner's Guide to JavaScript Array Methods`},
         {   name: "blog2",
             url: "https://medium.com/@charliechasegray/all-about-state-react-jss-usestate-hook-df90e8149e19",
-            description: `All About State: React.js's useState Hook`}
+            description: `All About State: React.js's useState Hook`},
+        {   name: "blog3",
+            url: "https://medium.com/@charliechasegray/exploring-pythons-magic-methods-ba101422617b",
+            description: `Exploring Python's Magic Methods`}
     ];
     return (
         <div className="bloglist-background">

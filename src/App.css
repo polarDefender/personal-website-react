@@ -556,7 +556,7 @@ a:hover {
     }
 
     .pricing, .discount {
-        font-size: 1.25em !important;
+        font-size: 1.25em;
         font-family: 'Orbitron', sans-serif;
         width: 90%;
     }
